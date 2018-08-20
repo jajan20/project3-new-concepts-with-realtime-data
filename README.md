@@ -27,6 +27,9 @@
 ## Herkansing
 Sadly I was sick for the last 2 days of the project, so I'll continue my work from then. After a meeting with one of the teachers, I've decided that my concept was too big for such a small amount of time.
 
+Design is made based for smartphones. Since customers will be carrying handheld devices.
+
+
 ## Redesign
 In the redesign, I've decided I would only use the gas consumption. Customers can see how much gas is consumed while preparing their dishes.
 
