@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+
+body {
+	transition: all 150ms;
+}
+
+img {
+	width: 100%;
+}
+
+article:nth-child(even) {
+	background-color: #EFEFEF;
+}
+
+a {
+	margin: 0 1rem 0 1rem;
+	color: #0071FF;
+	text-decoration: none;
+	transition: all 150ms;
+}
+
+.ceuvel-logo {
+	width: 50%;
+	padding: 1rem;
+}
+
+a:hover {
+	color: #0071FF;
+	text-decoration: underline;
+}
+
+.inactive {
+	color: gray;
+	cursor: not-allowed;
+}
+
+.inactive:hover {
+	color: gray;
+	text-decoration: none;
+}
+
+body header p {
+	font-size: .9rem;
+	margin: 1rem 1rem 0 1rem;
+	color: #3d3d3d;
+}
+
+div p:first-child {
+	font-weight: 800;
+}
+
+div p:nth-child(2){
+	font-size: .8rem;
+}
+
+.gerecht-header {
+	padding: .5rem 0 .5rem 0;
+}
+
+.gerecht-body p {
+	position: fixed;
+	left: 0rem;
+	top: 234px;
+	width: 100%;
+	background-color: rgba(0,0,0,0.8);
+	color: white;
+	padding: .5rem 0 .5rem 1rem;
+}	
+
+.return-btn {
+	cursor: pointer;
+}
+
+#start {
+	width: 100%;
+	background-color: white;
+	color: #0071FF;
+	border: none;
+	margin: .5rem 0 .5rem 0;
+	height: 2rem;
+	cursor: pointer;
+	border-top: solid 1px #0071FF;
+	border-bottom: solid 1px #0071FF;
+	transition: all 150ms;
+}
+
+#start:hover {
+	background-color: #0071FF;
+	color: white	;
+}
+
+.gerecht {
+	padding: .5rem 0 .5rem 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+.bestellingen > p {
+	text-align: center;
+	font-size: 1.2rem;
+	font-weight: 800;
+	padding: .5rem;
+	box-shadow: inset 0px -2px 0px 0px #000000;
+}
+
+.bestellingen article p {
+	margin: 0 1rem 0 1rem;
+}
+
+button {
+	margin: 0 0 .5rem 1rem;
+}
+
+.gas-consumption {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem 0 1rem 0;
+}
